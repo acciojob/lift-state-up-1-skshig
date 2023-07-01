@@ -3,9 +3,7 @@ import React, { useState } from 'react'
 const Child = (props)=> {
     const modal = props.modal;
     const setModal = props.setModal
-    console.log(modal)
     function showContent(){
-        console.log("boo")
        setModal(!modal);
     }
     if(modal === false){
@@ -23,9 +21,9 @@ const Child = (props)=> {
             <h1>Child Component</h1>
             <button onClick={showContent}>Show Modal</button>
             <h1>Modal Content</h1>
-            <h2>
+            <h3>
                 This is modal content
-            </h2>
+            </h3>
         </div>
         )
     }
