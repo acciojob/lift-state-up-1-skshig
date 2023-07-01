@@ -22,7 +22,7 @@ const Child = (props)=> {
             <button onClick={showContent}>Show Modal</button>
             <h3>Modal Content</h3>
             <p>
-                This is Modal Content
+                This is the modal content.
             </p>
         </div>
         )
