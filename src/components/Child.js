@@ -20,10 +20,10 @@ const Child = (props)=> {
             <div className='child'>
             <h1>Child Component</h1>
             <button onClick={showContent}>Show Modal</button>
-            <h1>Modal Content</h1>
-            <h3>
-                This is modal content
-            </h3>
+            <h3>Modal Content</h3>
+            <h4>
+                This is Modal Content
+            </h4>
         </div>
         )
     }
